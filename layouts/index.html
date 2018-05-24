@@ -30,7 +30,9 @@
 					<article class="feature {{ .type }}">
 						<div class="card {{ .type }}">
 							{{ if .moncard }}
-							<div class="title">{{ .moncard }}</div>
+							<div class="title">
+								{{ .moncard }}
+							</div>
 							{{ end }}
 							{{ if .image }}
 							<div class="img">
@@ -38,7 +40,12 @@
 							</div>
 							{{ end }}
 							<div class="content">
-								<h2>{{ .name }}</h2>
+								<h2>
+									{{ if .icon }}
+									<i class="fas fa-{{ .icon }}"></i>
+									{{ end }}
+									{{ .name }}
+								</h2>
 								{{ if .time }}
 								<p><i class="fas fa-clock"></i> Est Time: {{ .time }}</p>
 								{{ end }}

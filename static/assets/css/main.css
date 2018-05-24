@@ -2679,6 +2679,10 @@
 		.feature.start .card{
 			height:auto;
 		}
+
+		.feature.start .card .img{
+			background-color:#CCDFEB;
+		}
 		
 		.card > .title {
 			background-color: black;
