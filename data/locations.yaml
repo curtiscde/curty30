@@ -1,4 +1,101 @@
 locations:
-- image: 'oldkent.jpg'
+- type: 'start'
+  address: 'Greenwich'
+  name: 'Curt & Lischs Flat'
+  time: '10:00am'
+  image: 'go.jpg'
 
-- image: 'oldkent.jpg'
+- moncard: 'Old Kent Road'
+  type: 'brown'
+  name: 'Lord Nelson'
+  time: '10:35am'
+  address: 'SE1 5AA'
+  mapurl: 'https://www.google.co.uk/maps/place/Lord+Nelson/@51.4869586,-0.0767468,17z/data=!4m13!1m7!3m6!1s0x4876036c4665b14f:0x21565b3195569a8e!2sOld+Kent+Rd,+London+SE1+5AA!3b1!8m2!3d51.4869615!4d-0.0746338!3m4!1s0x0:0xb5ffe334ec3086aa!8m2!3d51.486742!4d-0.0742187'
+  desc: 'lorem'
+
+- moncard: 'Whitechapel Road'
+  type: 'brown'
+  name: 'The White Hart Brew Pub'
+  address: 'E1 4TP'
+  mapurl: 'https://www.google.co.uk/maps/place/The+White+Hart+Brew+Pub/@51.5202313,-0.0562461,15z/data=!4m5!3m4!1s0x0:0xfaa7633f9f2e1c9a!8m2!3d51.5202313!4d-0.0562461'
+  time: '11:50pm'
+
+- moncard: 'Liverpool Street Station'
+  type: 'train'
+  name: 'Hamilton Hall'
+  address: 'EC2M 7PY'
+  mapurl: 'https://www.google.co.uk/maps/place/Hamilton+Hall/@51.5174721,-0.0809564,15z/data=!4m2!3m1!1s0x0:0x9df75494dc67e5cb?sa=X&ved=0ahUKEwi35buRrJ7bAhWsIMAKHaeDCMYQ_BIIhwEwCg'
+  time: '12.25pm'
+
+- moncard: 'The Angel, Islington'
+  type: 'lightblue'
+  name: 'The Angel'
+  address: 'N1 9LQ'
+  mapurl: 'https://www.google.co.uk/maps/place/Islington+High+St,+London+N1+9LQ/data=!4m2!3m1!1s0x48761b4339ec5999:0x50a89a83646e90fa?sa=X&ved=0ahUKEwiyh-CsrJ7bAhXQVsAKHU-RApMQ8gEIjgEwCg'
+  time: '1:00pm'
+
+- moncard: 'Fenchurch Street Station'
+  type: 'train'
+
+- moncard: 'Pentonville Road'
+  type: 'lightblue'
+
+- moncard: 'Kings Cross Station'
+  type: 'train'
+
+- moncard: 'Euston Road'
+  type: 'lightblue'
+
+- moncard: 'Marylebone Station'
+  type: 'train'
+
+- moncard: 'Park Lane'
+  type: 'blue'
+
+- moncard: 'Mayfair'
+  type: 'blue'
+
+- moncard: 'Piccadilly'
+  type: 'yellow'
+
+- moncard: 'Pall Mall'
+  type: 'pink'
+
+- moncard: 'Whitehall'
+  type: 'pink'
+
+- moncard: 'Northumberland Avenue'
+  type: 'pink'
+
+- moncard: 'Fleet Street'
+  type: 'red'
+
+- moncard: 'The Strand'
+  type: 'red'
+
+- moncard: 'Bow Street'
+  type: 'orange'
+
+- moncard: 'Trafalgar Square'
+  type: 'red'
+
+- moncard: 'Leicester Square'
+  type: 'yellow'
+
+- moncard: 'Coventry Street'
+  type: 'yellow'
+
+- moncard: 'Regent Street'
+  type: 'green'
+
+- moncard: 'Vine Street'
+  type: 'orange'
+
+- moncard: 'Marlborough Street'
+  type: 'orange'
+
+- moncard: 'Bond Street'
+  type: 'green'
+
+- moncard: 'Oxford Street'
+  type: 'green'
