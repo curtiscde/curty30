@@ -2787,7 +2787,8 @@
 			-webkit-box-shadow: 8px 8px 0px -4px rgba(0,0,0,0.35);
 			-moz-box-shadow: 8px 8px 0px -4px rgba(0,0,0,0.35);
 			box-shadow: 8px 8px 0px -4px rgba(0,0,0,0.35);
-			height:380px;
+			height:480px;
+			overflow: hidden;
 		}
 		
 		.feature.start .card{
@@ -2854,6 +2855,23 @@
 		.clear{
 			clear: both;
 		}
+
+		.card .map{
+			margin-top: 50px;
+			text-align: center;
+		}
+
+		.feature.start .card .map{
+			display: none !important;
+		}
+
+		.card .map img{
+			max-width: 100%;
+		}
+
+		.card .map.mobile{
+			display: none;
+		}
 		
 		@media screen and (max-width: 736px) {
 		
@@ -2865,6 +2883,16 @@
 			.card{
 				height:auto;
 			}
+
+
+
+		.card .map.mobile{
+			display: block;
+		}
+
+		.card .map.desktop{
+			display: none;
+		}
 		
 		}
 

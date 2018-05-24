@@ -46,6 +46,18 @@
 								{{ if .desc }}
 								<p>{{ .desc }}</p>
 								{{ end }}
+								{{ if .address }}
+								<div class="map mobile">
+									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
+										<img src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&zoom=16&size=400x300&markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+									</a>
+								</div>
+								<div class="map desktop">
+									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
+										<img src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&zoom=16&size=440x200&markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+									</a>
+								</div>
+								{{ end }}
 							</div>
 						</div>
 					</article>
