@@ -11,7 +11,15 @@ locations:
   time: '10:35am'
   address: 'SE1 5AA'
   mapurl: 'https://www.google.co.uk/maps/place/Lord+Nelson/@51.4869586,-0.0767468,17z/data=!4m13!1m7!3m6!1s0x4876036c4665b14f:0x21565b3195569a8e!2sOld+Kent+Rd,+London+SE1+5AA!3b1!8m2!3d51.4869615!4d-0.0746338!3m4!1s0x0:0xb5ffe334ec3086aa!8m2!3d51.486742!4d-0.0742187'
-  desc: 'lorem'
+  done: true
+
+- moncard: 'Fenchurch Street Station'
+  type: 'train'
+  name: 'Cafe Brera'
+  time: '11:20am'
+  address: 'EC3M 4AJ'
+  mapurl: 'https://www.google.co.uk/maps/place/Cafe+Brera/@51.512122,-0.079195,15z/data=!4m5!3m4!1s0x0:0x69bfccb30aeb8c3e!8m2!3d51.512122!4d-0.079195'
+  done: true
 
 - moncard: 'Whitechapel Road'
   type: 'brown'
@@ -19,6 +27,7 @@ locations:
   address: 'E1 4TP'
   mapurl: 'https://www.google.co.uk/maps/place/The+White+Hart+Brew+Pub/@51.5202313,-0.0562461,15z/data=!4m5!3m4!1s0x0:0xfaa7633f9f2e1c9a!8m2!3d51.5202313!4d-0.0562461'
   time: '11:50pm'
+  done: true
 
 - moncard: 'Liverpool Street Station'
   type: 'train'
@@ -26,6 +35,7 @@ locations:
   address: 'EC2M 7PY'
   mapurl: 'https://www.google.co.uk/maps/place/Hamilton+Hall/@51.5174721,-0.0809564,15z/data=!4m2!3m1!1s0x0:0x9df75494dc67e5cb?sa=X&ved=0ahUKEwi35buRrJ7bAhWsIMAKHaeDCMYQ_BIIhwEwCg'
   time: '12.25pm'
+  done: true
 
 - moncard: 'The Angel, Islington'
   type: 'lightblue'
@@ -33,21 +43,33 @@ locations:
   address: 'N1 9LQ'
   mapurl: 'https://www.google.co.uk/maps/place/Islington+High+St,+London+N1+9LQ/data=!4m2!3m1!1s0x48761b4339ec5999:0x50a89a83646e90fa?sa=X&ved=0ahUKEwiyh-CsrJ7bAhXQVsAKHU-RApMQ8gEIjgEwCg'
   time: '1:00pm'
-
-- moncard: 'Fenchurch Street Station'
-  type: 'train'
+  done: true
 
 - moncard: 'Pentonville Road'
   type: 'lightblue'
+  name: 'The Castle'
+  address: 'N1 9HF'
+  time: '1:30pm'
+  done: true
 
 - moncard: 'Kings Cross Station'
   type: 'train'
+  name: 'The Parcel Yard'
+  address: 'Euston Rd, Kings Cross, London N1C 4AH'
+  time: '2:00pm'
+  done: true
 
 - moncard: 'Euston Road'
   type: 'lightblue'
+  name: 'The Rocket'
+  address: '120 Euston Road, London NW1 2AL'
+  time: '2:30pm'
 
 - moncard: 'Marylebone Station'
   type: 'train'
+  name: ''
+  address: ''
+  time: ''
 
 - moncard: 'Park Lane'
   type: 'blue'

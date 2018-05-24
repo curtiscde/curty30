@@ -40,11 +40,8 @@
 								{{ if .time }}
 								<p>Est Time: {{ .time }}</p>
 								{{ end }}
-								{{ if .mapurl }}
-								<p><a href="{{ .mapurl }}" target="_blank">{{ .address }}</a></p>
-								{{ end }}
-								{{ if not .mapurl }}
-								<p>{{ .address }}</p>
+								{{ if .address }}
+								<p><a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">{{ .address }}</a></p>
 								{{ end }}
 								{{ if .desc }}
 								<p>{{ .desc }}</p>
