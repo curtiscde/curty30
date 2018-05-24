@@ -75,14 +75,14 @@ locations:
 - moncard: 'Park Lane'
   type: 'blue'
   name: 'Rose & Crown'
-  address: 'W1K 1QN'
+  address: '2 Old Park Ln, Mayfair, London W1K 1QN'
   time: '3:35pm'
 
 - moncard: 'Mayfair'
   type: 'blue'
-  name: ''
-  address: ''
-  time: ''
+  name: 'Ye Grapes'
+  address: '16 Shepherd Market, Mayfair, London W1J 7QQ'
+  time: '4:00pm'
   desc: ''
 
 - moncard: 'Piccadilly'

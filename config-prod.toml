@@ -1,4 +1,7 @@
-baseurl = "https://curts30th.netlify.com/"
+baseurl = "https://curty30.com/"
 title = "Curts 30th"
 theme = ""
 languageCode = "en-us"
+
+[params.settings]
+    googleanalytics = "UA-119815300-2"

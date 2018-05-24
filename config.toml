@@ -2,3 +2,6 @@ baseurl = "http://localhost:1313/"
 title = "Curts 30th"
 theme = ""
 languageCode = "en-us"
+
+[params.settings]
+    googleanalytics = "UA-119815300-1"
