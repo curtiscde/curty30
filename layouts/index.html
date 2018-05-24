@@ -58,12 +58,12 @@
 								{{ if .address }}
 								<div class="map mobile">
 									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
-										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=400x300&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDM8QXOoWl4jOFsfn1IZDhJG1NQojj4Z20&amp;center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=400x300&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
 									</a>
 								</div>
 								<div class="map desktop">
 									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
-										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=440x200&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDM8QXOoWl4jOFsfn1IZDhJG1NQojj4Z20&amp;center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=440x200&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
 									</a>
 								</div>
 								{{ end }}
