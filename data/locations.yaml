@@ -158,22 +158,22 @@ locations:
 
 - moncard: 'Regent Street'
   type: 'green'
-  name: ''
-  address: ""
+  name: 'The Warwick'
+  address: "1-3 Warwick St, Soho, London W1B 5LR"
   time: ''
   desc: ''
 
 - moncard: 'Vine Street'
   type: 'orange'
-  name: ''
-  address: ''
+  name: 'Leicester Arms'
+  address: 'Piccadilly W1B 5DP'
   time: ''
   desc: ''
 
 - moncard: 'Marlborough Street'
   type: 'orange'
-  name: ''
-  address: ''
+  name: "O’Neill’s"
+  address: '37-38 Great Marlborough St, Carnaby, London W1F 7JF'
   time: ''
   desc: ''
 
@@ -190,3 +190,4 @@ locations:
   address: ''
   time: ''
   desc: ''
+  icon: 'flag-checkered'

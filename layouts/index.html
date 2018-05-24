@@ -58,12 +58,12 @@
 								{{ if .address }}
 								<div class="map mobile">
 									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
-										<img src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=400x300&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=400x300&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
 									</a>
 								</div>
 								<div class="map desktop">
 									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
-										<img src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=440x200&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=440x200&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
 									</a>
 								</div>
 								{{ end }}
@@ -104,6 +104,12 @@
   gtag('js', new Date());
 
   gtag('config', '{{ .Site.Params.Settings.googleanalytics }}');
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/lozad"></script>
+<script>
+	var observer = lozad(); // lazy loads elements with default selector as ".lozad"
+	observer.observe();
 </script>
 
 
