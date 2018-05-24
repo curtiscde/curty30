@@ -137,29 +137,29 @@ locations:
 
 - moncard: 'Trafalgar Square'
   type: 'red'
-  name: ''
-  address: ''
+  name: 'The Admiralty'
+  address: "66 Trafalgar Square, St. James's, London WC2N 5DS"
   time: ''
   desc: ''
 
 - moncard: 'Leicester Square'
   type: 'yellow'
-  name: ''
-  address: ''
+  name: 'All Bar One'
+  address: "48 Leicester Square, London WC2H 7LU"
   time: ''
-  desc: ''
+  desc: '...or Wetherspoons across the road if All Bar One is too busy!'
 
 - moncard: 'Coventry Street'
   type: 'yellow'
-  name: ''
-  address: ''
+  name: 'Tom Cribb'
+  address: "36 Panton St, London SW1Y 4EA"
   time: ''
-  desc: ''
+  desc: '...or LEGO shop instead if we fancy it!'
 
 - moncard: 'Regent Street'
   type: 'green'
   name: ''
-  address: ''
+  address: ""
   time: ''
   desc: ''
 
