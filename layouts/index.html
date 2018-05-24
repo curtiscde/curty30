@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</head>
 	<body class="landing">
 
@@ -38,10 +39,10 @@
 							<div class="content">
 								<h2>{{ .name }}</h2>
 								{{ if .time }}
-								<p>Est Time: {{ .time }}</p>
+								<p><i class="fas fa-clock"></i> Est Time: {{ .time }}</p>
 								{{ end }}
 								{{ if .address }}
-								<p><a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">{{ .address }}</a></p>
+								<p><i class="fas fa-map-marker"></i> <a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">{{ .address }}</a></p>
 								{{ end }}
 								{{ if .desc }}
 								<p>{{ .desc }}</p>
