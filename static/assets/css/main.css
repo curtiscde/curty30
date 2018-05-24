@@ -3874,40 +3874,23 @@
 
 /* Banner */
 
-	#banner {
+	/* #banner {
 		padding: 8em 0 6em 0;
 		background-color: #1E2832;
-		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-size: cover;
-		text-align: center;
+	} */
+
+#banner{
+	text-align: center;
+	background:#D2E5D2;
+}
+
+	#banner img{
+		max-width: 780px;
+		width:100%;
 	}
-
-		#banner input, #banner select, #banner textarea {
-			color: #fff;
-		}
-
-		#banner a {
-			color: #51BAA4;
-		}
-
-		#banner strong, #banner b {
-			color: #fff;
-		}
-
-		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
-		}
-
-		#banner blockquote {
-			border-left-color: transparent;
-		}
-
-		#banner code {
-			background: rgba(255, 255, 255, 0.05);
-			border-color: transparent;
-		}
 
 		#banner hr {
 			border-bottom-color: transparent;
@@ -4023,66 +4006,6 @@
 			margin-bottom: 0.5em;
 			padding: 0.5em;
 			width: 2.25em;
-		}
-
-		@media screen and (max-width: 1680px) {
-
-			#banner {
-				padding: 11em 0 9em 0;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			#banner {
-				padding: 9em 0 7em 0;
-			}
-
-				#banner h2 {
-					font-size: 2em;
-				}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			#banner {
-				padding: 8em 2em 6em 2em;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#banner {
-				padding: 5em 2em 3em 2em;
-			}
-
-				#banner h2 {
-					font-size: 1.5em;
-				}
-
-				#banner p {
-					font-size: 1em;
-				}
-
-				#banner .icon {
-					font-size: 2em;
-				}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#banner {
-				padding: 5em 2em 3em 2em;
-			}
-
-				#banner .icon {
-					font-size: 1.5em;
-				}
-
 		}
 
 /* Main */
