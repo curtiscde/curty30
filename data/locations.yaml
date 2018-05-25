@@ -1,7 +1,7 @@
 locations:
 - type: 'start'
   address: 'Greenwich'
-  name: 'Curt & Lischs Flat'
+  name: "Curt & Lisch's Flat"
   time: '10:00am'
   image: 'go.jpg'
 
