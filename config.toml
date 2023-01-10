@@ -1,6 +1,5 @@
 baseurl = "http://localhost:1313/"
-title = "Curt's 30th"
-theme = ""
+title = "Curt's 30th Monopoly Pub Crawl"
 languageCode = "en-us"
 
 [params.settings]

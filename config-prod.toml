@@ -1,6 +1,5 @@
-baseurl = "https://curty30.com/"
-title = "Curt's 30th"
-theme = ""
+baseurl = "https://curty30.curtiscode.dev/"
+title = "Curt's 30th Monopoly Pub Crawl"
 languageCode = "en-us"
 
 [params.settings]
