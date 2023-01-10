@@ -10,32 +10,36 @@ locations:
   name: 'Lord Nelson'
   time: '10:35am'
   address: '386 Old Kent Rd, London SE1 5AA'
-  mapurl: 'https://www.google.co.uk/maps/place/Lord+Nelson/@51.4869586,-0.0767468,17z/data=!4m13!1m7!3m6!1s0x4876036c4665b14f:0x21565b3195569a8e!2sOld+Kent+Rd,+London+SE1+5AA!3b1!8m2!3d51.4869615!4d-0.0746338!3m4!1s0x0:0xb5ffe334ec3086aa!8m2!3d51.486742!4d-0.0742187'
   done: true
+  lat: 51.4867
+  long: -0.0743 
 
 - moncard: 'Fenchurch Street Station'
   type: 'train'
   name: 'Cafe Brera'
   time: '11:20am'
   address: '3 Fenchurch PI, London EC3M 4AJ'
-  mapurl: 'https://www.google.co.uk/maps/place/Cafe+Brera/@51.512122,-0.079195,15z/data=!4m5!3m4!1s0x0:0x69bfccb30aeb8c3e!8m2!3d51.512122!4d-0.079195'
   done: true
+  lat: 51.512122
+  long: -0.079195
 
 - moncard: 'Whitechapel Road'
   type: 'brown'
   name: 'The White Hart Brew Pub'
   address: '1 Mile End Rd, London E1 4TP'
-  mapurl: 'https://www.google.co.uk/maps/place/The+White+Hart+Brew+Pub/@51.5202313,-0.0562461,15z/data=!4m5!3m4!1s0x0:0xfaa7633f9f2e1c9a!8m2!3d51.5202313!4d-0.0562461'
   time: '11:50pm'
   done: true
+  lat: 51.5202313
+  long: -0.0562461
 
 - moncard: 'Liverpool Street Station'
   type: 'train'
   name: 'Hamilton Hall'
   address: 'Liverpool St, London EC2M 7PY'
-  mapurl: 'https://www.google.co.uk/maps/place/Hamilton+Hall/@51.5174721,-0.0809564,15z/data=!4m2!3m1!1s0x0:0x9df75494dc67e5cb?sa=X&ved=0ahUKEwi35buRrJ7bAhWsIMAKHaeDCMYQ_BIIhwEwCg'
   time: '12.25pm'
   done: true
+  lat: 51.5174721
+  long: -0.0809564
 
 - moncard: 'The Angel, Islington'
   type: 'lightblue'
@@ -43,6 +47,8 @@ locations:
   address: 'Islington High St, London N1 9LQ'
   time: '1:00pm'
   done: true
+  lat: 51.5322244
+  long: -0.1086933
 
 - moncard: 'Pentonville Road'
   type: 'lightblue'
@@ -50,6 +56,8 @@ locations:
   address: '54 Pentonville Rd, London N1 9HF'
   time: '1:30pm'
   done: true
+  lat: 51.5319658
+  long: -0.1112052
 
 - moncard: 'Kings Cross Station'
   type: 'train'
@@ -57,6 +65,8 @@ locations:
   address: 'Euston Rd, Kings Cross, London N1C 4AH'
   time: '2:00pm'
   done: true
+  lat: 51.5324534
+  long: -0.1262798
 
 - moncard: 'Euston Road'
   type: 'lightblue'
@@ -64,6 +74,8 @@ locations:
   address: '120 Euston Road, London NW1 2AL'
   time: '2:30pm'
   done: true
+  lat: 51.5282511
+  long: -0.1310846
 
 - moncard: 'Marylebone Station'
   type: 'train'
@@ -71,12 +83,16 @@ locations:
   address: '11 Melcombe Pl, Marylebone, London NW1 6JJ'
   time: '3:00pm'
   done: true
+  lat: 51.5224459
+  long: -0.1657297
 
 - moncard: 'Park Lane'
   type: 'blue'
   name: 'Rose & Crown'
   address: '2 Old Park Ln, Mayfair, London W1K 1QN'
   time: '3:35pm'
+  lat: 51.5041098
+  long: -0.1511095
 
 - moncard: 'Mayfair'
   type: 'blue'
@@ -84,6 +100,8 @@ locations:
   address: '16 Shepherd Market, Mayfair, London W1J 7QQ'
   time: '4:00pm'
   desc: ''
+  lat: 51.5066249
+  long: -0.1484862
 
 - moncard: 'Piccadilly'
   type: 'yellow'
@@ -91,6 +109,8 @@ locations:
   address: '80 Piccadilly, Mayfair, London W1J 8HX'
   time: '4:30pm'
   desc: ''
+  lat: 51.5067026
+  long: -0.1455868
 
 - moncard: 'Pall Mall'
   type: 'pink'
@@ -98,6 +118,8 @@ locations:
   address: "23 Crown Passage, St. James's, London SW1Y 6PP"
   time: '5:00pm'
   desc: ''
+  lat: 51.505717
+  long: -0.1399117
 
 - moncard: 'Whitehall'
   type: 'pink'
@@ -106,6 +128,8 @@ locations:
   time: 'FOOD booked for 5:30pm'
   desc: ''
   icon: 'utensils'
+  lat: 51.5066295
+  long: -0.1292468
 
 - moncard: 'Northumberland Avenue'
   type: 'pink'
@@ -113,6 +137,8 @@ locations:
   address: '10 Northumberland St, London WC2N 5DB'
   time: ''
   desc: ''
+  lat: 51.5073523
+  long: -0.1274044
 
 - moncard: 'Fleet Street'
   type: 'red'
@@ -120,6 +146,8 @@ locations:
   address: '99 Fleet St, London EC4Y 1DE'
   time: ''
   desc: ''
+  lat: 51.5140284
+  long: -0.1071271
 
 - moncard: 'The Strand'
   type: 'red'
@@ -127,6 +155,8 @@ locations:
   address: '351 Strand, London WC2R 0HS'
   time: ''
   desc: ''
+  lat: 51.5114189
+  long: -0.1217052
 
 - moncard: 'Bow Street'
   type: 'orange'
@@ -134,6 +164,8 @@ locations:
   address: '39 Bow St, London WC2E 7AU'
   time: ''
   desc: ''
+  lat: 51.5128156
+  long: -0.1233765
 
 - moncard: 'Trafalgar Square'
   type: 'red'
@@ -141,6 +173,8 @@ locations:
   address: "66 Trafalgar Square, St. James's, London WC2N 5DS"
   time: ''
   desc: ''
+  lat: 51.5073029
+  long: -0.1310361
 
 - moncard: 'Leicester Square'
   type: 'yellow'
@@ -148,6 +182,8 @@ locations:
   address: "48 Leicester Square, London WC2H 7LU"
   time: ''
   desc: '...or Wetherspoons across the road if All Bar One is too busy!'
+  lat: 51.5100723
+  long: -0.1328163
 
 - moncard: 'Coventry Street'
   type: 'yellow'
@@ -155,6 +191,8 @@ locations:
   address: "36 Panton St, London SW1Y 4EA"
   time: ''
   desc: '...or LEGO shop instead if we fancy it!'
+  lat: 51.5095939
+  long: -0.1339793
 
 - moncard: 'Regent Street'
   type: 'green'
@@ -162,6 +200,8 @@ locations:
   address: "1-3 Warwick St, Soho, London W1B 5LR"
   time: ''
   desc: ''
+  lat: 51.510679
+  long: -0.1395317
 
 - moncard: 'Vine Street'
   type: 'orange'
@@ -169,6 +209,8 @@ locations:
   address: 'Piccadilly W1B 5DP'
   time: ''
   desc: ''
+  lat: 51.5105856
+  long: -0.1398524
 
 - moncard: 'Marlborough Street'
   type: 'orange'
@@ -176,6 +218,8 @@ locations:
   address: '37-38 Great Marlborough St, Carnaby, London W1F 7JF'
   time: ''
   desc: ''
+  lat: 51.5140291
+  long: -0.1414449
 
 - moncard: 'Bond Street'
   type: 'green'
@@ -183,6 +227,8 @@ locations:
   address: '8 Dering St, Mayfair, London W1S 1AF'
   time: ''
   desc: ''
+  lat: 51.5142226
+  long: -0.1480599
 
 - moncard: 'Oxford Street'
   type: 'green'
@@ -191,3 +237,5 @@ locations:
   time: ''
   desc: ''
   icon: 'flag-checkered'
+  lat: 51.5167389
+  long: -0.131222

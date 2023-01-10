@@ -56,14 +56,16 @@
 								<p>{{ .desc }}</p>
 								{{ end }}
 								{{ if .address }}
+								{{ $mapurlmobile := print "https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/" .long "," .lat ",14,0/400x300?access_token=pk.eyJ1IjoiY3VydGlzY29kZSIsImEiOiJjbGNxam9vNzcwMHlyM3htc3NxamZzNjZpIn0.K_kg-bcBMcuLd6HFbl8UuA" }}
+								{{ $mapurldesktop := print "https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/" .long "," .lat ",14,0/440x200?access_token=pk.eyJ1IjoiY3VydGlzY29kZSIsImEiOiJjbGNxam9vNzcwMHlyM3htc3NxamZzNjZpIn0.K_kg-bcBMcuLd6HFbl8UuA" }}
 								<div class="map mobile">
 									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
-										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDM8QXOoWl4jOFsfn1IZDhJG1NQojj4Z20&amp;center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=400x300&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+										<img class="lozad" data-src="{{ $mapurlmobile }}" />
 									</a>
 								</div>
 								<div class="map desktop">
 									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
-										<img class="lozad" data-src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDM8QXOoWl4jOFsfn1IZDhJG1NQojj4Z20&amp;center={{ .name }} {{ .address }}&amp;zoom=16&amp;size=440x200&amp;markers=color:{{ .type }}%7Clabel:{{ substr .moncard 0 1 }}%7C{{ .name }}{{ .address }}" />
+										<img class="lozad" data-src="{{ $mapurldesktop }}" />
 									</a>
 								</div>
 								{{ end }}
