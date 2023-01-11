@@ -56,8 +56,8 @@
 								<p>{{ .desc }}</p>
 								{{ end }}
 								{{ if .address }}
-								{{ $mapurlmobile := print "https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/" .long "," .lat ",14,0/400x300?access_token=pk.eyJ1IjoiY3VydGlzY29kZSIsImEiOiJjbGNxam9vNzcwMHlyM3htc3NxamZzNjZpIn0.K_kg-bcBMcuLd6HFbl8UuA" }}
-								{{ $mapurldesktop := print "https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/" .long "," .lat ",14,0/440x200?access_token=pk.eyJ1IjoiY3VydGlzY29kZSIsImEiOiJjbGNxam9vNzcwMHlyM3htc3NxamZzNjZpIn0.K_kg-bcBMcuLd6HFbl8UuA" }}
+								{{ $mapurlmobile := print "images/map/" .slug "-400x300.png" }}
+								{{ $mapurldesktop := print "images/map/" .slug "-440x200.png" }}
 								<div class="map mobile">
 									<a href="https://maps.google.com?q={{ .name }} {{ .address }}" target="_blank">
 										<img class="lozad" data-src="{{ $mapurlmobile }}" />
