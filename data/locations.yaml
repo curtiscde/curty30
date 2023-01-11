@@ -6,15 +6,17 @@ locations:
   image: 'go.jpg'
 
 - moncard: 'Old Kent Road'
+  slug: 'old-kent-road'
   type: 'brown'
   name: 'Lord Nelson'
   time: '10:35am'
   address: '386 Old Kent Rd, London SE1 5AA'
   done: true
   lat: 51.4867
-  long: -0.0743 
+  long: -0.0743
 
 - moncard: 'Fenchurch Street Station'
+  slug: 'fenchurch'
   type: 'train'
   name: 'Cafe Brera'
   time: '11:20am'
@@ -24,6 +26,7 @@ locations:
   long: -0.079195
 
 - moncard: 'Whitechapel Road'
+  slug: 'whitechapel'
   type: 'brown'
   name: 'The White Hart Brew Pub'
   address: '1 Mile End Rd, London E1 4TP'
@@ -33,6 +36,7 @@ locations:
   long: -0.0562461
 
 - moncard: 'Liverpool Street Station'
+  slug: 'liverpool-street'
   type: 'train'
   name: 'Hamilton Hall'
   address: 'Liverpool St, London EC2M 7PY'
@@ -42,6 +46,7 @@ locations:
   long: -0.0809564
 
 - moncard: 'The Angel, Islington'
+  slug: 'angel'
   type: 'lightblue'
   name: 'The Angel'
   address: 'Islington High St, London N1 9LQ'
@@ -51,6 +56,7 @@ locations:
   long: -0.1086933
 
 - moncard: 'Pentonville Road'
+  slug: 'pentonville'
   type: 'lightblue'
   name: 'The Castle'
   address: '54 Pentonville Rd, London N1 9HF'
@@ -60,6 +66,7 @@ locations:
   long: -0.1112052
 
 - moncard: 'Kings Cross Station'
+  slug: 'kings-cross'
   type: 'train'
   name: 'The Parcel Yard'
   address: 'Euston Rd, Kings Cross, London N1C 4AH'
@@ -69,6 +76,7 @@ locations:
   long: -0.1262798
 
 - moncard: 'Euston Road'
+  slug: 'euston'
   type: 'lightblue'
   name: 'The Rocket'
   address: '120 Euston Road, London NW1 2AL'
@@ -78,6 +86,7 @@ locations:
   long: -0.1310846
 
 - moncard: 'Marylebone Station'
+  slug: 'marylebone'
   type: 'train'
   name: 'Victoria & Albert'
   address: '11 Melcombe Pl, Marylebone, London NW1 6JJ'
@@ -87,6 +96,7 @@ locations:
   long: -0.1657297
 
 - moncard: 'Park Lane'
+  slug: 'park-lane'
   type: 'blue'
   name: 'Rose & Crown'
   address: '2 Old Park Ln, Mayfair, London W1K 1QN'
@@ -95,6 +105,7 @@ locations:
   long: -0.1511095
 
 - moncard: 'Mayfair'
+  slug: 'mayfair'
   type: 'blue'
   name: 'Ye Grapes'
   address: '16 Shepherd Market, Mayfair, London W1J 7QQ'
@@ -104,6 +115,7 @@ locations:
   long: -0.1484862
 
 - moncard: 'Piccadilly'
+  slug: 'piccadilly'
   type: 'yellow'
   name: "Henry's Cafe Bar"
   address: '80 Piccadilly, Mayfair, London W1J 8HX'
@@ -113,6 +125,7 @@ locations:
   long: -0.1455868
 
 - moncard: 'Pall Mall'
+  slug: 'pall-mall'
   type: 'pink'
   name: 'The Red Lion'
   address: "23 Crown Passage, St. James's, London SW1Y 6PP"
@@ -122,6 +135,7 @@ locations:
   long: -0.1399117
 
 - moncard: 'Whitehall'
+  slug: 'whitehall'
   type: 'pink'
   name: 'Silver Cross'
   address: '33 Whitehall, Westminster, London SW1A 2BX'
@@ -132,6 +146,7 @@ locations:
   long: -0.1292468
 
 - moncard: 'Northumberland Avenue'
+  slug: 'northumberland'
   type: 'pink'
   name: 'Sherlock Holmes'
   address: '10 Northumberland St, London WC2N 5DB'
@@ -141,6 +156,7 @@ locations:
   long: -0.1274044
 
 - moncard: 'Fleet Street'
+  slug: 'fleet-street'
   type: 'red'
   name: 'Punch Tavern'
   address: '99 Fleet St, London EC4Y 1DE'
@@ -150,6 +166,7 @@ locations:
   long: -0.1071271
 
 - moncard: 'The Strand'
+  slug: 'strand'
   type: 'red'
   name: 'The Wellington'
   address: '351 Strand, London WC2R 0HS'
@@ -159,6 +176,7 @@ locations:
   long: -0.1217052
 
 - moncard: 'Bow Street'
+  slug: 'bow-street'
   type: 'orange'
   name: 'Marquess Of Anglesey'
   address: '39 Bow St, London WC2E 7AU'
@@ -168,6 +186,7 @@ locations:
   long: -0.1233765
 
 - moncard: 'Trafalgar Square'
+  slug: 'trafalgar-square'
   type: 'red'
   name: 'The Admiralty'
   address: "66 Trafalgar Square, St. James's, London WC2N 5DS"
@@ -177,6 +196,7 @@ locations:
   long: -0.1310361
 
 - moncard: 'Leicester Square'
+  slug: 'leicester-sq'
   type: 'yellow'
   name: 'All Bar One'
   address: "48 Leicester Square, London WC2H 7LU"
@@ -186,6 +206,7 @@ locations:
   long: -0.1328163
 
 - moncard: 'Coventry Street'
+  slug: 'coventry-street'
   type: 'yellow'
   name: 'Tom Cribb'
   address: "36 Panton St, London SW1Y 4EA"
@@ -195,6 +216,7 @@ locations:
   long: -0.1339793
 
 - moncard: 'Regent Street'
+  slug: 'regent-street'
   type: 'green'
   name: 'The Warwick'
   address: "1-3 Warwick St, Soho, London W1B 5LR"
@@ -204,6 +226,7 @@ locations:
   long: -0.1395317
 
 - moncard: 'Vine Street'
+  slug: 'vine-street'
   type: 'orange'
   name: 'Leicester Arms'
   address: 'Piccadilly W1B 5DP'
@@ -213,6 +236,7 @@ locations:
   long: -0.1398524
 
 - moncard: 'Marlborough Street'
+  slug: 'marlborough-street'
   type: 'orange'
   name: "O’Neill’s"
   address: '37-38 Great Marlborough St, Carnaby, London W1F 7JF'
@@ -222,6 +246,7 @@ locations:
   long: -0.1414449
 
 - moncard: 'Bond Street'
+  slug: 'bond-street'
   type: 'green'
   name: 'Duke of York'
   address: '8 Dering St, Mayfair, London W1S 1AF'
@@ -231,6 +256,7 @@ locations:
   long: -0.1480599
 
 - moncard: 'Oxford Street'
+  slug: 'oxford-street'
   type: 'green'
   name: 'All Bar One'
   address: '108 New Oxford St, Fitzrovia, London WC1A 1HD'

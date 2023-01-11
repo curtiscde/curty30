@@ -1,0 +1,23 @@
+{
+  "name": "curty30",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createimg": "ts-node ./createimg.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/curtiscde/curty30.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curtiscde/curty30/issues"
+  },
+  "homepage": "https://github.com/curtiscde/curty30#readme",
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
